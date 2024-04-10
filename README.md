@@ -51,7 +51,7 @@ Be sure to conveniently divide the data set into `train` and `test` as we have s
 
 #### Step 3: Build a linear regression model
 
-You do not need to optimize the hyperparameters. Start by using a default definition and improve it in the next step.
+You do not need to optimize the hyperparameters. Start by using a default definition, and improve it in the next step.
 
 #### Step 4: Optimize the previous model
 
