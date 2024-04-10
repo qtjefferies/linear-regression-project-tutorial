@@ -39,7 +39,7 @@ Or download it and add it by hand in your repository. In this dataset, you will 
 2. `sex`. Gender of the primary beneficiary (categorical)
 3. `bmi`. Body mass index (numeric)
 4. `children`. Number of children/dependents covered by health insurance (numeric)
-5. `smoker`. is the person a smoker? (categorical)
+5. `smoker`. Is the person a smoker? (categorical)
 6. `region`. Beneficiary's residential area in the U.S.: northeast, southeast, southwest, northwest (categorical)
 7. `charges`. Health insurance premium (numerical)
 
