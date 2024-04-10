@@ -4,14 +4,14 @@
 
 - Comprender un dataset nuevo.
 - Procesarlo aplicando un análisis exploratorio (EDA).
-- Modelar los datos utilizando la regresión logística.
+- Modelar los datos utilizando la regresión lineal.
 - Analizar los resultados y optimizar el modelo si fuera posible.
 
-## 🌱  Cómo iniciar este proyecto
+## 🌱 Cómo iniciar este proyecto
 
 Sigue las siguientes instrucciones:
 
-1. Crea un nuevo repositorio basado en el [proyecto de Machine Learing](https://github.com/4GeeksAcademy/machine-learning-python-template/generate) [haciendo clic aquí](https://github.com/4GeeksAcademy/machine-learning-python-template).
+1. Crea un nuevo repositorio basado en el [proyecto de Machine Learning](https://github.com/4GeeksAcademy/machine-learning-python-template) [haciendo clic aquí](https://github.com/4GeeksAcademy/machine-learning-python-template/generate).
 2. Abre el repositorio creado recientemente en Codespace usando la [extensión del botón de Codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository).
 3. Una vez que el VSCode del Codespace haya terminado de abrirse, comienza tu proyecto siguiendo las instrucciones a continuación.
 
@@ -23,19 +23,25 @@ Una vez que hayas terminado de resolver el caso práctico, asegúrate de confirm
 
 ### Predecir el coste del seguro médico de una persona
 
-La importante compañía de seguros 4Geeks Insurance S.L. quiere calcular, en función de datos fisológicos de sus clientes cuál va a ser la prima (coste) que debe asumir cada uno de ellos. Para ello, ha reunido a un equipo completo de médicos y en función de datos de otras compañías y un estudio particular han logrado reunir un conjunto de datos para entrenar un modelo predictivo.
+La importante compañía de seguros 4Geeks Insurance S.L. quiere calcular, en función de datos los fisiológicos de sus clientes, cuál va a ser la prima (coste) que debe asumir cada uno de ellos. Para ello, ha reunido a un equipo completo de médicos y en función de datos de otras compañías y un estudio particular han logrado reunir un conjunto de datos para entrenar un modelo predictivo.
 
 #### Paso 1: Carga del conjunto de datos
 
-El conjunto de datos se puede encontrar en esta carpeta de proyecto bajo el nombre `medical_insurance_cost.csv`. Puedes cargarlo en el código directamente desde el enlace (`https://raw.githubusercontent.com/4GeeksAcademy/linear-regression-project-tutorial/main/medical_insurance_cost.csv`) o descargarlo y añadirlo a mano en tu repositorio. En este conjunto de datos encontrarás las siguientes variables:
+El conjunto de datos se puede encontrar en esta carpeta de proyecto bajo el nombre `medical_insurance_cost.csv`. Puedes cargarlo en el código directamente desde el siguente enlace:
+
+```text
+https://raw.githubusercontent.com/4GeeksAcademy/linear-regression-project-tutorial/main/medical_insurance_cost.csv
+```
+
+O descargarlo y añadirlo a mano en tu repositorio. En este conjunto de datos encontrarás las siguientes variables:
 
 1. `age`. Edad del beneficiario principal (numérico)
 2. `sex`. Género del beneficiario principal (categórico)
-3. `bmi`. Indice de masa corporal (numérico)
-4. `children`. Número de niños/dependientes cubiertos por el seguro de salud (numérico)
+3. `bmi`. índice de masa corporal (numérico)
+4. `children`. Número de niños/dependientes cubiertos por un seguro médico (numérico)
 5. `smoker`. ¿Es fumador? (categórico)
 6. `region`. Área residencial del beneficiario en USA: noreste, sureste, suroeste, noroeste (categórico)
-7. `charges`. Prima del seguro médico (numerico)
+7. `charges`. Prima del seguro médico (numérico)
 
 #### Paso 2: Realiza un EDA completo
 
@@ -51,4 +57,4 @@ No es necesario que optimices los hiperparámetros. Comienza utilizando una defi
 
 Después de entrenar el modelo, si los resultados no son satisfactorios, optimízalo si fuera posible.
 
-> NOTA: Solución: https://github.com/4GeeksAcademy/linear-regression-project-tutorial/blob/main/solution.ipynb
+> Nota: También incorporamos muestras de solución en `./solution.ipynb` que te sugerimos honestamente que solo uses si estás atascado por más de 30 minutos o si ya has terminado y quieres compararlo con tu enfoque.
